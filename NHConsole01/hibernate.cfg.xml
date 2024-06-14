@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-configuration xmlns="urn:nhibernate-configuration-2.2">
+	<session-factory xmlns="urn:nhibernate-configuration-2.2">
+		<property name="dialect">NHibernate.Dialect.MsSql2012Dialect, NHibernate</property>
+		<!--ورژن دیتابیس-->
+		<property name="connection.driver_class">NHibernate.Driver.MicrosoftDataSqlClientDriver</property>
+		<!--درایور اسکیوال-->
+		<property name="connection.connection_string">Server=DESKTOP-S136OOG\User;Database=NHBookStore;Data Source =.;Trusted_Connection=True;TrustServerCertificate=True;</property>
+	</session-factory>
+</hibernate-configuration>
